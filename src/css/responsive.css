@@ -1,3 +1,207 @@
+@media (max-width: 768px) {
+    #root {
+        overflow: hidden;
+    }
+
+    /*************************/
+    /****** NAVIGATION ******/
+    .navigation {
+        display: none;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    /***************************/
+    /********** HERO **********/
+    .hero {
+        height: 120vh;
+    }
+
+    .hero-content {
+        top: 23vh;
+        width: 90%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        padding-bottom: .5rem;
+    }
+
+    .hero-action {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #overlay {
+        height: 120vh;
+    }
+
+    .cards {
+        flex-direction: column;
+        top: 0;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    /**************************/
+    /********* OFFERS ********/
+    .offer-container {
+        flex-direction: column;
+    }
+
+    .testimonials-text {
+        margin-top: 2rem;
+        max-width: 80%;
+        font-size: .9rem;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    /*****************************/
+    /******* PLATFORMS *******/
+    .platforms {
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+
+    .platform {
+        width: 20%;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .subscribe-title {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    .pricing {
+        max-width: 100%;
+    }
+
+    .pricing-details {
+        width: 80%;
+        margin-top: -4rem;
+        padding-bottom: 4rem;
+    }
+
+    .pricing-details p {
+        font-size: .9rem;
+    }
+
+    .price-cards {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .price-card {
+        height: 120vh;
+    }
+    
+    .card-dark {
+        top: 0;
+    }
+
+    /*********************************/
+    /*********** BRANCHES **********/
+
+    .branches {
+        padding: 2rem;
+        height: 100vh;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .branches-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .branches-info {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .contact-card {
+        display: block;
+        top: 0;
+        max-width: 100%;
+    }
+
+    .contact-card-img {
+        height: 50vh;
+    }
+
+    /******************************/
+    /**** FORM CONTAINER *******/
+    .form-container {
+        padding: 0 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .form-title {
+        padding-top: 2rem;
+    }
+
+    /************************/
+    /***** CONSULTATION ****/
+    .consultation {
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    /************************/
+    /***** HYPERLLINKS *****/
+
+    .hyperlink-wrapper {
+        padding: 1rem;
+        padding-top: 4rem;
+    }
+
+    .container-categories {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hyperlink-category {
+        font-size: 1.5rem;
+    }
+
+    .hyperlinks {
+        width: 90%;
+    }
+
+    /******** FOOTER ********/
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 @media (max-width: 320px) {
     body {
         overflow-x: hidden;
