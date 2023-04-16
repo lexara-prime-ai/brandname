@@ -462,7 +462,7 @@ header {
     border: 1px solid var(--blue);
     border-radius: 9px;
     padding: 3rem;
-    height: 90vh;
+    height: 600px;
 }
 
 .pricing-features {
@@ -563,7 +563,7 @@ header {
     color: var(--white);
     position: relative;
     top: -3rem;
-    height: 97vh;
+    height: 650px;
 }
 
 .price-title-dark {
